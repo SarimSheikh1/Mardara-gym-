@@ -4,11 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#090909" />
-  <meta name="description" content="IronPulse Fitness — a premium training space and gym management experience in Islamabad." />
-  <meta property="og:title" content="IronPulse Fitness | Build Your Stronger Self" />
-  <meta property="og:description" content="Premium training space in Islamabad. Professional equipment, experienced coaches and flexible memberships." />
+  <meta name="description" content="Mardavex Fitness — a premium training space and gym management experience in Pakistan." />
+  <meta property="og:title" content="Mardavex Fitness | Build Your Stronger Self" />
+  <meta property="og:description" content="Premium training space in Pakistan. Professional equipment, experienced coaches and flexible memberships." />
   <meta property="og:type" content="website" />
-  <title>IronPulse Fitness | Build Your Stronger Self</title>
+  <title>Mardavex Fitness | Build Your Stronger Self</title>
   <link rel="manifest" href="/manifest.json" />
   <link rel="apple-touch-icon" href="/logo.svg" />
   <style>
@@ -80,7 +80,7 @@
     .brand:before { content:""; display:block; width:180px; height:66px; background:url('logo.svg') center/contain no-repeat; flex:none; }
     .brand > span { display:none; }
     .mark { width:42px; height:42px; flex:none; filter:drop-shadow(0 5px 10px #a3163d55); }
-    .nav-links { display:flex; gap:25px; color:#c8c8c8; font-size:.85rem; }
+    .nav-links { display:flex; gap:16px; color:#c8c8c8; font-size:.85rem; }
     .nav-links a { position:relative; padding:4px 0; transition:color .2s; }
     .nav-links a:after { content:""; position:absolute; left:0; bottom:-2px; width:0; height:2px; background:var(--red2); transition:width .3s; }
     .nav-links a:hover { color:var(--red2); }
@@ -482,6 +482,9 @@
       .stat strong { font-size:1.4rem; }
       .bottom-nav-item { padding:4px 8px; font-size:.55rem; }
     }
+      [hidden] { display:none !important; }
+    .person .btn { margin-top:10px; font-size:.78rem; }
+    .person-info { overflow-wrap:anywhere; }
   </style>
 </head>
 <body>
@@ -494,19 +497,18 @@
       <path fill="#f4b942" d="m18 31 12-14-5 1-5 6z"/>
     </svg>
     <div class="loader-bar"><div class="loader-bar-fill"></div></div>
-    <div class="loader-text">IronPulse Fitness</div>
+    <div class="loader-text">Mardavex Fitness</div>
   </div>
 
   <!-- ===== NAVIGATION ===== -->
   <header class="nav" id="nav">
     <div class="container nav-inner">
-      <a class="brand" href="#top" aria-label="IronPulse Fitness home"></a>
+      <a class="brand" href="#top" aria-label="Mardavex Fitness home"></a>
       <nav class="nav-links" id="links">
         <a href="#about">About</a>
         <a href="#plans">Memberships</a>
         <a href="#facilities">Facilities</a>
-        <a href="#dashboard">Management</a>
-        <a href="#contact-section">Contact</a>
+        <a href="#trainers">Trainers</a><a href="#schedule">Timetable</a><a href="#contact-section">Contact</a>
       </nav>
       <div class="nav-actions">
         <button class="theme-toggle" id="theme-btn" aria-label="Toggle theme">
@@ -532,15 +534,15 @@
       <div class="container hero-content">
         <div class="hero-badge reveal">
           <span class="badge-dot"></span>
-          Now open · Blue Area, Islamabad
+          Plan your first visit
         </div>
-        <div class="eyebrow reveal stagger-1">Premium training / Islamabad</div>
+        <div class="eyebrow reveal stagger-1">Premium training / Mardavex</div>
         <h1 class="reveal stagger-2">BUILD YOUR<br><span style="color:var(--red2)">STRONGER SELF.</span></h1>
         <p class="reveal stagger-3">Train with purpose in a space built for strength, progress and consistency. Professional equipment, experienced coaches and flexible memberships — all in one place.</p>
         <div class="hero-buttons reveal stagger-4">
           <button class="btn btn-primary" data-open="join">Join the gym →</button>
           <button class="btn btn-ghost" data-open="trial">Book free trial</button>
-          <a class="btn btn-gold" href="tel:+923001234567">📞 Call Us</a>
+          <a class="btn btn-gold" href="tel:+923170046008">📞 Call Us</a>
         </div>
         <div class="stats">
           <div class="stat reveal stagger-1"><strong><span class="counter" data-target="248">0</span>+</strong><span>Active Members</span></div>
@@ -559,7 +561,7 @@
             <div class="eyebrow">Train with intent</div>
             <h2>Everything you need<br>to do the work.</h2>
           </div>
-          <p class="reveal-right muted">From first session to personal best, IronPulse gives you a focused environment and the tools to make consistency feel powerful.</p>
+          <p class="reveal-right muted">From first session to personal best, Mardavex gives you a focused environment and the tools to make consistency feel powerful.</p>
         </div>
         <div class="grid grid-4">
           <article class="surface card feature reveal stagger-1">
@@ -589,11 +591,11 @@
     <!-- ===== ABOUT ===== -->
     <section id="about">
       <div class="container about">
-        <div class="about-art reveal-left" role="img" aria-label="Abstract IronPulse shield logo artwork"></div>
+        <div class="about-art reveal-left" role="img" aria-label="Abstract Mardavex shield logo artwork"></div>
         <div class="reveal-right">
           <div class="eyebrow">More than a gym</div>
           <h2>A place to show up.</h2>
-          <p class="muted">IronPulse is designed for beginners, athletes and everyone building a stronger relationship with training. No ego, no noise — just a clean floor, good coaching and a community that respects the work.</p>
+          <p class="muted">Mardavex is designed for beginners, athletes and everyone building a stronger relationship with training. No ego, no noise — just a clean floor, good coaching and a community that respects the work.</p>
           <div class="ticks">
             <span>Modern equipment</span>
             <span>Professional coaching</span>
@@ -675,7 +677,7 @@
         </div>
         <div class="surface dash reveal">
           <aside class="side">
-            <h3>IRONPULSE / ADMIN</h3>
+            <h3>MARDAVEX / ADMIN</h3>
             <a class="active" href="#dashboard">Overview</a>
             <a href="#members">Members</a>
             <a href="#plans">Memberships</a>
@@ -720,15 +722,15 @@
           <p class="reveal-right muted">Demo schedule — class times and capacity can be managed from the admin system.</p>
         </div>
         <div class="surface table-wrap reveal">
-          <table class="schedule-table">
+          <table class="schedule-table"><caption style="text-align:left;padding:16px;color:var(--muted)">Weekly timetable &middot; confirmed times will appear here</caption>
             <thead><tr><th>Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr></thead>
             <tbody>
-              <tr><td>07:00</td><td>Strength</td><td>HIIT</td><td>Yoga</td><td>Strength</td><td>Mobility</td><td>Open Gym</td></tr>
-              <tr><td>18:00</td><td>Functional</td><td>Cardio Blast</td><td>Core</td><td>Functional</td><td>Circuit</td><td>Yoga</td></tr>
-              <tr><td>19:00</td><td>Beginner Fitness</td><td>Yoga</td><td>Strength</td><td>HIIT</td><td>Open Gym</td><td>HIIT</td></tr>
+              <tr><td>Morning</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td></tr>
+              <tr><td>Evening</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td><td>Coming soon</td></tr>
             </tbody>
           </table>
         </div>
+        <div style="margin-top:20px;display:flex;gap:12px;flex-wrap:wrap"><button class="btn btn-primary" data-open="class">Ask about a class</button><a class="btn btn-ghost" href="https://wa.me/923170046008?text=Hi%20Mardavex%20Fitness%2C%20please%20share%20your%20class%20timings." target="_blank" rel="noopener noreferrer">Get timings on WhatsApp &rarr;</a></div>
       </div>
     </section>
 
@@ -840,7 +842,7 @@
           </details>
           <details class="reveal stagger-2">
             <summary>Do you offer personal training?</summary>
-            <p>Yes. One-on-one training sessions are available with all our certified coaches. Ask at reception or book through the app.</p>
+            <p>Ask our team about one-on-one coaching using the trainer inquiry buttons. Coach profiles and availability will be published soon.</p>
           </details>
           <details class="reveal stagger-3">
             <summary>Can I freeze or renew my membership?</summary>
@@ -848,11 +850,11 @@
           </details>
           <details class="reveal stagger-4">
             <summary>What are your opening hours?</summary>
-            <p>We're open daily from 6:00 AM to 11:00 PM. 24/7 access is available for Premium members via key fob.</p>
+            <p>Confirmed opening hours are coming soon. Contact us on WhatsApp to check availability before visiting.</p>
           </details>
           <details class="reveal">
             <summary>Is parking available?</summary>
-            <p>Yes, free parking is available for all members in the building's basement. Just show your membership card at entry.</p>
+            <p>Parking details are coming soon. Ask our team for directions and parking information before visiting.</p>
           </details>
           <details class="reveal">
             <summary>Do you have a nutrition plan?</summary>
@@ -870,40 +872,25 @@
             <div class="eyebrow">People behind the progress</div>
             <h2>Train with experts.</h2>
           </div>
-          <p class="reveal-right muted">Get guidance that meets you where you are and keeps you moving toward your next personal best.</p>
+          <p class="reveal-right muted">Coach names, photos and experience are coming soon. Ask our team about coaching for your goals.</p>
         </div>
         <div class="people">
           <article class="surface person reveal stagger-1">
             <div class="person-photo"></div>
             <div class="person-info">
-              <h3>Hamza Khan</h3>
-              <p>Strength &amp; conditioning coach · 8 yrs exp</p>
-              <div class="trainer-socials">
-                <a href="#">Instagram</a>
-                <a href="#">Book session</a>
-              </div>
+              <h3>Strength &amp; conditioning</h3><p>Trainer profile coming soon</p><p class="muted">Build strength and improve lifting technique.</p><button type="button" class="btn btn-ghost" data-open="coach" data-coach="Strength &amp; conditioning">Ask about coaching &rarr;</button>
             </div>
           </article>
           <article class="surface person reveal stagger-2">
             <div class="person-photo"></div>
             <div class="person-info">
-              <h3>Sarah Ahmed</h3>
-              <p>Functional fitness coach · 5 yrs exp</p>
-              <div class="trainer-socials">
-                <a href="#">Instagram</a>
-                <a href="#">Book session</a>
-              </div>
+              <h3>Functional fitness</h3><p>Trainer profile coming soon</p><p class="muted">Explore movement, conditioning and everyday fitness.</p><button type="button" class="btn btn-ghost" data-open="coach" data-coach="Functional fitness">Ask about coaching &rarr;</button>
             </div>
           </article>
           <article class="surface person reveal stagger-3">
             <div class="person-photo"></div>
             <div class="person-info">
-              <h3>Usman Ali</h3>
-              <p>Performance &amp; mobility coach · 6 yrs exp</p>
-              <div class="trainer-socials">
-                <a href="#">Instagram</a>
-                <a href="#">Book session</a>
-              </div>
+              <h3>Performance &amp; mobility</h3><p>Trainer profile coming soon</p><p class="muted">Work on movement quality, flexibility and recovery.</p><button type="button" class="btn btn-ghost" data-open="coach" data-coach="Performance &amp; mobility">Ask about coaching &rarr;</button>
             </div>
           </article>
         </div>
@@ -915,7 +902,7 @@
       <div class="container">
         <div class="section-head">
           <div class="reveal-left">
-            <div class="eyebrow">Inside IronPulse</div>
+            <div class="eyebrow">Inside Mardavex</div>
             <h2>Built for the work.</h2>
           </div>
           <p class="reveal-right muted">A focused training environment with room to lift, move, recover and improve.</p>
@@ -936,9 +923,9 @@
         <div class="section-head">
           <div class="reveal-left">
             <div class="eyebrow">Follow the journey</div>
-            <h2>@ironpulse.pk</h2>
+            <h2>The Mardavex community</h2>
           </div>
-          <p class="reveal-right muted">Real moments from real members. Tag us in your training and be featured on the wall.</p>
+          <p class="reveal-right muted">Training moments, personal milestones and a community that keeps you moving.</p>
         </div>
         <div class="insta-grid reveal">
           <div class="insta-item">
@@ -973,8 +960,8 @@
           </div>
         </div>
         <div class="insta-follow reveal">
-          <p>Follow us for daily motivation and updates</p>
-          <a href="https://instagram.com/ironpulse.pk" target="_blank" rel="noreferrer" class="btn btn-ghost">Follow @ironpulse.pk →</a>
+          <p>Start your own journey with Mardavex Fitness</p>
+          <button type="button" class="btn btn-ghost" data-open="trial">Book a free trial &rarr;</button>
         </div>
       </div>
     </section>
@@ -1023,26 +1010,26 @@
             <div class="surface contact-card">
               <span class="contact-icon">📍</span>
               <strong>Visit us</strong>
-              <span class="muted">Blue Area, Islamabad, Pakistan<br>Open daily · 6:00 AM – 11:00 PM</span>
+              <span class="muted">Address coming soon<br>Message us for directions before visiting</span>
             </div>
             <div class="surface contact-card">
               <span class="contact-icon">📞</span>
               <strong>Call or WhatsApp</strong>
-              <span class="muted">+92 300 1234567<br>hello@ironpulse.pk</span>
+              <span class="muted">0317 0046008</span>
               <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
-                <a href="tel:+923001234567" class="btn btn-primary" style="padding:10px 16px;font-size:.75rem">Call Now</a>
-                <a href="https://wa.me/923001234567" target="_blank" class="btn btn-ghost" style="padding:10px 16px;font-size:.75rem">WhatsApp</a>
+                <a href="tel:+923170046008" class="btn btn-primary" style="padding:10px 16px;font-size:.75rem">Call Now</a>
+                <a href="https://wa.me/923170046008" target="_blank" class="btn btn-ghost" style="padding:10px 16px;font-size:.75rem">WhatsApp</a>
               </div>
             </div>
             <div class="surface contact-card">
               <span class="contact-icon">⏰</span>
               <strong>Opening Hours</strong>
-              <span class="muted">Mon – Fri: 6:00 AM – 11:00 PM<br>Sat – Sun: 7:00 AM – 10:00 PM<br>Premium: 24/7 key fob access</span>
+              <span class="muted">Confirmed opening hours coming soon<br>Ask on WhatsApp before your visit</span>
             </div>
             <div class="surface contact-card">
               <span class="contact-icon">🅿️</span>
               <strong>Parking & Transport</strong>
-              <span class="muted">Free basement parking<br>5 mins from Jinnah Ave<br>Near Blue Area Metro</span>
+              <span class="muted">Parking and transport details coming soon</span>
             </div>
           </div>
           <div class="reveal-right">
@@ -1050,9 +1037,9 @@
               <div class="map-grid-bg"></div>
               <div class="map-placeholder">
                 <span class="map-icon map-pin">📍</span>
-                <strong style="font-size:1rem">IronPulse Fitness</strong>
-                <p>Blue Area, Islamabad</p>
-                <a href="https://maps.google.com/?q=Blue+Area+Islamabad" target="_blank" rel="noreferrer" class="btn btn-primary" style="padding:10px 20px;font-size:.78rem">Open in Google Maps →</a>
+                <strong style="font-size:1rem">Mardavex Fitness</strong>
+                <p>Location details coming soon</p>
+                <a href="https://wa.me/923170046008?text=Hi%20Mardavex%20Fitness%2C%20please%20share%20your%20gym%20location." target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ask for directions &rarr;</a>
               </div>
             </div>
           </div>
@@ -1085,9 +1072,9 @@
   <!-- ===== FOOTER ===== -->
   <footer>
     <div class="container footer-inner">
-      <a class="brand" href="#top" aria-label="IronPulse Fitness"></a>
-      <span>Premium training · Blue Area, Islamabad · Est. 2024</span>
-      <span>© 2026 IronPulse Fitness</span>
+      <a class="brand" href="#top" aria-label="Mardavex Fitness"></a>
+      <span>Premium training &middot; Book a visit &middot; 0317 0046008</span>
+      <span>© 2026 Mardavex Fitness</span>
     </div>
   </footer>
 
@@ -1095,27 +1082,31 @@
   <dialog id="modal">
     <div class="modal">
       <div class="modal-head">
-        <div><div class="eyebrow">IronPulse Fitness</div><h3 id="modal-title">Book a free trial</h3></div>
+        <div><div class="eyebrow">Mardavex Fitness</div><h3 id="modal-title">Book a free trial</h3></div>
         <button class="modal-close" aria-label="Close">×</button>
       </div>
       <form id="lead-form">
         <div class="form-row">
           <div><label for="name">Full name</label><input id="name" required placeholder="Your name" /></div>
-          <div><label for="phone">Phone / WhatsApp</label><input id="phone" required placeholder="03xx xxx xxxx" /></div>
+          <div><label for="phone">Phone / WhatsApp</label><input id="phone" type="tel" autocomplete="tel" required placeholder="03xx xxx xxxx" /></div>
         </div>
         <label for="email">Email</label>
         <input id="email" type="email" placeholder="you@example.com" />
         <label for="plan">Interest</label>
         <select id="plan">
-          <option>Free trial</option>
+          <option>Free trial</option><option>Class inquiry</option><option>Personal training</option>
           <option>Day Pass</option>
           <option>Basic</option>
           <option>Standard</option>
           <option>Premium</option>
         </select>
+        <div class="form-row" style="margin-top:14px"><div><label for="booking-date">Preferred date (optional)</label><input id="booking-date" type="date" /></div><div><label for="booking-time">Preferred time (optional)</label><input id="booking-time" type="time" /></div></div>
+        <label for="coach">Coaching interest</label><select id="coach"><option>No preference</option><option>Strength &amp; conditioning</option><option>Functional fitness</option><option>Performance &amp; mobility</option></select>
         <label for="goal">Training goal</label>
         <textarea id="goal" placeholder="Tell us what you want to work on"></textarea>
-        <button class="btn btn-primary" style="width:100%;margin-top:18px">Send request →</button>
+        <button class="btn btn-primary" style="width:100%;margin-top:18px">Continue on WhatsApp &rarr;</button>
+        <p class="muted" style="font-size:.8rem;margin-top:12px">Your details open in WhatsApp. Send the message there; our team will confirm availability.</p>
+        <a id="booking-link" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" hidden>Open your WhatsApp request &rarr;</a>
       </form>
     </div>
   </dialog>
@@ -1124,12 +1115,12 @@
   <div class="toast" id="toast">Request received — we'll be in touch soon!</div>
 
   <!-- ===== FLOATING BUTTONS ===== -->
-  <a class="whatsapp" href="https://wa.me/923001234567" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+  <a class="whatsapp" href="https://wa.me/923170046008" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
     <span class="whatsapp-pulse"></span>
     💬 <span>Chat on WhatsApp</span>
   </a>
 
-  <a class="call-btn" href="tel:+923001234567" aria-label="Call IronPulse">
+  <a class="call-btn" href="tel:+923170046008" aria-label="Call Mardavex">
     📞 <span>Call Now</span>
   </a>
 
@@ -1193,20 +1184,37 @@
     const modalTitle = document.getElementById('modal-title');
     const form = document.getElementById('lead-form');
     const toast = document.getElementById('toast');
+    const bookingDate = document.getElementById('booking-date');
+    const today = new Date();
+    bookingDate.min = [today.getFullYear(), String(today.getMonth() + 1).padStart(2, '0'), String(today.getDate()).padStart(2, '0')].join('-');
+    const bookingLink = document.getElementById('booking-link');
+    form.addEventListener('input', () => { bookingLink.hidden = true; bookingLink.removeAttribute('href'); });
     document.querySelectorAll('[data-open]').forEach(b => b.addEventListener('click', () => {
-      const isJoin = b.dataset.open === 'join';
-      modalTitle.textContent = isJoin ? `Join ${b.dataset.plan || 'IronPulse'}` : 'Book a free trial';
-      if (b.dataset.plan) document.getElementById('plan').value = b.dataset.plan;
+      form.reset();
+      bookingLink.hidden = true;
+      bookingLink.removeAttribute('href');
+      const kind = b.dataset.open;
+      modalTitle.textContent = kind === 'join' ? 'Membership inquiry' : kind === 'coach' ? 'Ask about personal training' : kind === 'class' ? 'Ask about a class' : 'Book a free trial';
+      document.getElementById('plan').value = b.dataset.plan || (kind === 'coach' ? 'Personal training' : kind === 'class' ? 'Class inquiry' : 'Free trial');
+      document.getElementById('coach').value = b.dataset.coach || 'No preference';
       modal.showModal();
     }));
     document.querySelector('.modal-close').addEventListener('click', () => modal.close());
     modal.addEventListener('click', e => { if (e.target === modal) modal.close(); });
     form.addEventListener('submit', e => {
       e.preventDefault();
-      modal.close();
-      toast.classList.add('show');
-      form.reset();
-      setTimeout(() => toast.classList.remove('show'), 3500);
+      if (!form.reportValidity()) return;
+      const value = id => document.getElementById(id).value.trim();
+      const message = ['Hi Mardavex Fitness, I would like to make an inquiry.',
+        'Name: ' + value('name'), 'Phone: ' + value('phone'), 'Interest: ' + value('plan'),
+        value('email') ? 'Email: ' + value('email') : '',
+        value('booking-date') ? 'Preferred date: ' + value('booking-date') : '',
+        value('booking-time') ? 'Preferred time: ' + value('booking-time') : '',
+        'Coaching: ' + value('coach'), value('goal') ? 'Goal: ' + value('goal') : ''
+      ].filter(Boolean).join('\n');
+      bookingLink.href = 'https://wa.me/923170046008?text=' + encodeURIComponent(message);
+      bookingLink.hidden = false;
+      window.open(bookingLink.href, '_blank', 'noopener,noreferrer');
     });
 
     // ── NEWSLETTER ──

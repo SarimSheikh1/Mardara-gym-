@@ -1,5 +1,5 @@
-// IronPulse Fitness — Service Worker
-const CACHE = 'ironpulse-v1';
+// Mardavex Fitness — Service Worker
+const CACHE = 'mardavex-v3';
 const ASSETS = ['/', '/index.html', '/logo.svg', '/manifest.json'];
 
 self.addEventListener('install', e => {

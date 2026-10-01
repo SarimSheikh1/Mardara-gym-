@@ -11,7 +11,7 @@ const server = createServer(async (req, res) => {
   const pathname = new URL(req.url, `http://${req.headers.host || 'localhost'}`).pathname;
   if (pathname === '/api/health') {
     res.writeHead(200, { 'content-type': 'application/json; charset=utf-8' });
-    res.end(JSON.stringify({ ok: true, service: 'ironpulse-fitness', time: new Date().toISOString() }));
+    res.end(JSON.stringify({ ok: true, service: 'mardavex-fitness', time: new Date().toISOString() }));
     return;
   }
   const requested = pathname === '/' ? '/index.html' : pathname;
@@ -27,4 +27,4 @@ const server = createServer(async (req, res) => {
   }
 });
 
-server.listen(port, () => console.log(`IronPulse Fitness running at http://localhost:${port}`));
+server.listen(port, () => console.log(`Mardavex Fitness running at http://localhost:${port}`));

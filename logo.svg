@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
-  <title id="title">IronPulse Fitness</title><desc id="desc">Crimson bird emblem with IronPulse Fitness wordmark</desc>
+  <title id="title">Mardavex Fitness</title><desc id="desc">Crimson bird emblem with Mardavex Fitness wordmark</desc>
   <defs><linearGradient id="red" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#5d0626"/><stop offset=".52" stop-color="#c41443"/><stop offset="1" stop-color="#ff2439"/></linearGradient></defs>
   <g fill="url(#red)" stroke="#30051a" stroke-width="4" stroke-linejoin="round">
     <path d="M280 238C209 211 152 166 128 80c61 65 128 68 184 111-19-45-22-91 1-153 16 53 61 80 83 124 27-23 55-31 91-21-25 7-41 22-54 46-17 31-39 73-91 90 22-43 20-75-7-112 4 38-8 65-35 91-31 30-69 43-111 42 41-15 67-30 91-60z"/>
     <path d="M270 252c-34 47-71 61-124 59 52-11 77-28 101-67 8-13 17-25 29-36-2 18 0 29-6 44z"/>
     <path d="M207 278c-24 18-48 25-78 22 33-10 52-21 72-43z"/>
   </g>
-  <text x="360" y="346" text-anchor="middle" fill="url(#red)" font-family="Arial Black,Arial,sans-serif" font-size="67" letter-spacing="2">IRONPULSE</text>
+  <text x="360" y="346" text-anchor="middle" fill="url(#red)" font-family="Arial Black,Arial,sans-serif" font-size="67" letter-spacing="2">MARDAVEX</text>
   <text x="360" y="395" text-anchor="middle" fill="url(#red)" font-family="Arial Black,Arial,sans-serif" font-size="37" letter-spacing="14">FITNESS</text>
 </svg>

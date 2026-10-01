@@ -1,8 +1,8 @@
 {
-  "name": "ironpulse-fitness",
+  "name": "mardavex-fitness",
   "version": "0.1.0",
   "private": true,
-  "description": "IronPulse Fitness gym website and management system foundation",
+  "description": "Mardavex Fitness gym website and management system foundation",
   "type": "module",
   "scripts": {
     "start": "node server.js",
